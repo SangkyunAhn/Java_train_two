@@ -56,31 +56,34 @@ public class WildCardExample {
 
 class Person {
 	
-	private String student;
+	private String name;
 	
-	Person(String student) {
-		this.student = student;
+	Person(String name) {
+		this.name = name;
 	}
+	
+	public String getName() { return name; }
+	public String toString() { return name; }
 	
 }
 class Worker extends Person {
 	
-	Worker(String student) {
-		super(student);
+	Worker(String name) {
+		super(name);
 	}
 	
 }
 class Student extends Person {
 	
-	Student(String student) {
-		super(student);
+	Student(String name) {
+		super(name);
 	}
 	
 }
 class HighStudent extends Student {
 	
-	HighStudent(String student) {
-		super(student);
+	HighStudent(String name) {
+		super(name);
 	}
 	
 }

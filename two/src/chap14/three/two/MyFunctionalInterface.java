@@ -1,4 +1,4 @@
-package chap14.two;
+package chap14.three.two;
 
 @FunctionalInterface
 public interface MyFunctionalInterface {
