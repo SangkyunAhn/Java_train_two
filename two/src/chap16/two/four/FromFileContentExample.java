@@ -28,5 +28,5 @@ public class FromFileContentExample {
 		stream = br.lines();
 		stream.forEach(System.out :: println);
 	}
-
+	
 }
